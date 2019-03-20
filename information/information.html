@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery圆形循环信息展示插件|开优网络www.kaiu.net</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+      <link rel="stylesheet" href="src/s8CyrcleInfoBox.css" media="screen" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		
+		<div class="container">
+		    <div class="row">
+		        <div class="col-sm-8">
+		          
+		            <div class="circle1">
+		                <ul class="circleWrapper wStyle1">
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f1">姓名</div>
+		                        <div class="circleBox" id="f1"> 邓舒天
+		                        </div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f2">性别</div>
+		                        <div class="circleBox" id="f2">男</div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f3">身高</div>
+		                        <div class="circleBox" id="f3"> 不到两米！</div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f4">体重</div>
+		                        <div class="circleBox" id="f4">一百多斤！
+		                        </div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f5">爱好</div>
+		                        <div class="circleBox" id="f5">吃饭！
+		                        </div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f6">特长</div>
+		                        <div class="circleBox" id="f6"> 吃五碗！
+		                        </div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f7">原产地</div>
+		                        <div class="circleBox" id="f7"> 吉林省
+		                        </div>
+		                    </li>
+		                    <li>
+		                        <div class="circleFeature fStyle1" data-cyrcleBox="f8">代加工厂</div>
+		                        <div class="circleBox" id="f8"> 武汉工程大学
+		                        </div>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		       
+		    </div>
+		</div>		
+	</div>
+	
+	<script src="http://libs.baidu.com/js/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="src/s8CyrcleInfoBox.js" type="text/javascript"></script>
+	<script>$(".circle1").s8CircleInfoBox()</script>
+	<script>$(".circle2").s8CircleInfoBox({
+	    autoSlide: false,
+	    action: "click"
+	})</script>
+	<script>$(".circle3").s8CircleInfoBox({
+	    notResponsive: true,
+	    hoverStyle:"circleSelect3",
+	    slideSpeed: 500,
+	    breakpoint: 0
+
+	})</script>
+	<script>$(".circle4").s8CircleInfoBox({
+	    hoverStyle: "circleSelect4",
+	    spreadStyle: "right"
+	})</script>
+	<script>$(".circle5").s8CircleInfoBox({
+	    hoverStyle: "circleSelect4",
+	    spreadStyle: "left"
+	})</script>
+	<script>$(".circle6").s8CircleInfoBox({
+	    hoverStyle: "circleSelect4",
+	    spreadStyle: "top"
+	})</script>
+	<script>$(".circle7").s8CircleInfoBox({
+	    hoverStyle: "circleSelect4",
+	    spreadStyle: "bottom"
+	})</script>
+</body>
+</html>

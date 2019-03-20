@@ -1,0 +1,472 @@
+*{margin: 0;padding: 0}
+body{
+    color: #6d6d6d;
+}
+.top-div{
+background: #1abebf url("../images/logo.png") no-repeat center center;
+height: 72px;
+}
+.topnav-div{
+height: 41px;
+background-color: #efefef;
+
+
+}
+
+.icoadv{
+font-size: 20px;
+width: 20px;
+float: left;
+margin: 0;
+line-height: 41px;
+
+}
+.ico-geren{
+font-size: 20px;
+width: 70px;
+display: inline;
+line-height: 41px;
+position:absolute;
+right: 0;
+top: 0;
+
+}
+.padv{
+float: left;
+width: 100px;
+margin-left: 10px;
+line-height: 41px;
+
+
+}
+.topnav-div-box{
+width: 1000px;
+height: 41px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+.top-tab{
+width: 320px;
+height: 41px;
+margin-left: auto;
+margin-right: auto;
+}
+.ptop-tab,.ptop-tab-02{
+float: left;
+font-size: 18px;
+line-height: 41px;
+
+}
+.p-gerenzhongxin{
+font-size: 12px;
+position:absolute;
+line-height: 41px;
+right: 0;
+top: 0;
+
+
+}
+.ptop-tab{
+margin-right: 58.6px;
+}
+.div-weizhi{
+width: 1000px;
+height: 66px;
+margin-left: auto;
+margin-right: auto;
+line-height: 66px;
+font-size: 18px;
+padding-left: 30px;
+}
+
+.p-weizhi{
+float: left;
+}
+.div-saixuankuang-box{
+width: 1000px;
+height: 160px;
+background-color: #ebebeb;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+padding-top:10px;
+}
+
+.div-saixuankuang-box>.div-saixuankuang{
+
+text-align: center;
+line-height: 24px;
+font-size: 16px;
+width: 1000px;
+
+overflow: hidden;
+
+height: 37px;
+}
+.p-leibie{
+color: #31c6c6;
+float: left;
+width: 50px;
+padding-left: 10px;
+}
+.p-fenlei{
+float: left;
+margin-left: 19px;
+width: auto;
+height: 24px;
+box-sizing: border-box;
+border:1px solid #ebebeb;
+
+}
+.p-fenlei:hover{
+background-color: #fff;
+border:1px solid orange ;
+box-sizing: border-box;
+
+}
+.ico-daosanjiao{
+margin-left: 10px;
+font-size: 10px;
+line-height: 24px;
+}
+.div-paixu{
+overflow: hidden;
+width: 1000px;
+height: 55px;
+background-color: #ebebeb;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+position: relative;
+}
+.p-paixu{
+float: left;
+line-height: 55px;
+font-size: 13px;
+margin-left: 15px;
+}
+.ico-wenhao{
+position: absolute;
+right: 15px;
+top: 0;
+color: #47c6c3;
+font-size: 16px;
+
+}
+.div-sosuo{
+width: 250px;
+height: 20px;
+float: left;
+position: absolute;
+left: 300px;
+background-color: #fff;
+top: 17.5px;
+}
+.input-sosuo{
+width: 190px;
+height: 20px;
+border: none;
+position: absolute;
+left: 0;
+top: 0;
+float: left;
+}
+.button-sosuo{
+width: 60px;
+height: 20px;
+border: none;
+position: absolute;
+right: 0;
+top: 0;
+float: left;
+background-color: #fff;
+font-size: 13px;
+}
+.div-liebiao{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+overflow: hidden;
+
+}
+.div-liebiaoxiang{
+width: 240px;
+height: 340px;
+background-color: #ebebeb;
+float: left;
+border: 1px solid #dfdfdf;
+margin-right: 10.666px;
+margin-bottom: 10.666px;
+}
+.img-diban{
+height: 208px;
+width: 208px;
+margin: 16px;
+}
+.p-dibanxinxi{
+font-size: 13px;
+
+margin-left: 16px;
+
+}
+.p-dibanpingji{
+font-size: 17px;
+
+margin-left: 16px;
+font-weight: 1000;
+float: left;
+margin-top: 12px;
+ color: #31c6c6;
+}
+.p-dibanpingjia{
+font-size: 12px;
+float: left;
+padding-top: 2px;
+margin-top: 12px;
+color: #31c6c6
+
+
+
+}
+.div-liebiao>.div-liebiaoxianglast{
+margin-right: 0;
+}
+.div-liebiaoxiang:hover{
+color: #ffa700  ; 
+}
+.div-liebiaoxiang:hover .p-dibanpingji{
+    color: #ffa700 
+}
+.div-liebiaoxiang:hover .p-dibanpingjia{
+    color: #ffa700 
+}
+
+.div-fanye-inbox{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+height: 32px;
+margin-top: 20px;
+position: relative;
+
+}
+.button-fanye{
+float: left;
+width: 116px;
+height: 32px;
+background-color: #ebebeb;
+border: none;
+}
+.button-xuanye{
+float: left;
+border: none;
+background-color: #ffffff;
+line-height: 32px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.p-fanye-box{
+float: left;
+line-height: 34px;
+}
+.button-fanye-1{
+margin-right: 30px;
+
+}
+.button-fanye-2{
+margin-left: 30px;
+}
+.p-fanye-box{
+margin-left: 38px;
+}
+.input-xuanye{
+width: 32px;
+height: 32px;
+box-sizing: border-box;
+border: 1.5px solid #6d6d6d;
+position: absolute;
+left: 610px;
+
+}
+.button-queding{
+width: 65px;
+height: 34px;
+background-color: #ebebeb;
+border: none;
+margin-left: 55px;
+
+
+}
+.button-fanye:hover,.button-queding:hover{
+color: white;
+background-color: #ffa700;
+
+}
+.button-xuanye:hover{
+color: #ffa700;
+text-decoration-line: underline;
+}
+.div-weixinma-boxin{
+margin-top: 30px;
+width: 1000px;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+.img-weixinma{
+width: 83px;
+height: 83px;
+border: 1px solid #d7d7d7;
+float: left;
+margin-left: 15px;
+}
+.p-fankui{
+font-size: 20px;
+color: #18bebe;
+margin-left: 118px;
+margin-bottom: 15px;
+}
+.p-fankuiall{
+font-size: 15px;
+margin-left: 118px;
+}
+.div-dibu-box{
+height: 220px;
+background-color: #515151;
+margin-top: 28px;
+overflow: hidden;
+color: #e3e3e3;
+
+}
+.div-dibu-boxin{
+height: 175px;
+width: 1000px;
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+border-bottom: 1px solid  #6f7273;
+position: relative;
+}
+.div-dibu-boxin-left{
+width: 350px;
+float: left;
+
+
+
+
+}
+.p-wei{
+font-size: 12px;
+font-weight: 800;
+margin-top: 7px;
+margin-left: 15px;
+
+}
+.p-jia{
+font-size: 12px;
+margin-left: 15px;
+line-height: 12px;
+margin-top: 12px;
+}
+.p-he{
+font-size: 12px;
+margin-left: 15px;
+line-height: 12px;
+margin-top: 8px;
+}
+.imglogo2{
+margin: 15px;
+margin-left: 15px;
+line-height: 12px;
+
+}
+.div-lxfs-boxx{
+width: 160px;
+height: 70px;
+float: left;
+position: absolute;
+
+top: 70px;
+right: 350px;
+font-size: 10px;
+
+}
+.p-guanyu{
+float: left;
+position: absolute;
+left: 0;
+}
+.p-lianx{
+float: left;
+position: absolute;
+left: 0;
+top: 30px;
+}
+.p-jiaru{
+float: left;
+position: absolute;
+left: 0;
+bottom: 0;
+
+}
+.p-banquan{
+float: left;
+position: absolute;
+right: 0;
+top: 0;
+}
+.p-yonghu{
+float: left;
+position: absolute;
+right: 0;
+top: 30px;
+}
+.p-mianze{
+float: left;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.div-lianxfangshi{
+position: absolute;
+top: 60px;
+right: 127px;
+width: 94px;
+height: 85px;
+
+font-size: 10px;
+
+
+}
+
+.ico-lxfs{
+font-size: 20px;
+float: left;
+line-height: 30px;
+}
+.p-shangcheng{
+line-height: 30px;
+margin-left: 33px;
+}
+.div-xiezi{
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+position: relative;
+overflow: hidden;
+}
+.p-gongsi{
+font-size: 10px;
+line-height: 44px;
+margin-left: 15px;
+float: left;
+
+}
+.p-beian{
+line-height: 44px;
+float:right;
+font-size: 10px;
+
+}

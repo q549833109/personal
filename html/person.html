@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery多组效果滑动导航栏代码 - 开优网络</title>
+
+<link rel="stylesheet" type="text/css" href="../css/person.css">
+
+</head>
+<body>
+
+
+<div class="box">
+	  <ul class="f-nav" id='f-nav'>
+		  <li>
+			  <a href="../index.html" >首页</a>
+
+		  </li>
+		<li>
+
+			<a  href="../information/information.html" target="iframe" >个人简介</a>
+		</li>
+
+		<li>
+				<a   href="../photo/photo.html" target="iframe" >相册</a>
+		
+		</li>
+		<li>
+
+				<a href="../html/homework.html" target="iframe" >作业</a>
+		</li>
+		<li>
+				<a  href="../ot/csm.html" target="iframe" >传送门</a>
+
+			
+		</li>
+		 <div class='sideline'></div>
+	</ul>
+</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery-nav.js"></script>
+<script type="text/javascript">
+$('#f-nav').tooltip({
+default: 2,       // 默认为空  --  选中默认值
+width: '200',     // 限制宽度
+height: '100',
+textList: ['首页','分页1','分页2','分页3'],   // 每个导航的内容
+type: 'slideMove',  // 必填, 选择内容
+success: function(ret){
+
+}   //初始化回调
+});
+$('#f-nav2').tooltip({
+default: 3,    
+type: 'fontUp',
+width: '150',
+});
+$('#f-nav3').tooltip({
+type: 'downUp'
+});
+$('#f-nav4').tooltip({
+type: 'edgeLeft'
+});
+$('#f-nav5').tooltip({
+type: 'edgeRight'
+});
+$('#f-nav6').tooltip({
+type: 'scaleChange'
+});
+</script>
+
+
+</div>
+<div class="iframe-div-box" >
+	<iframe src="../information/information.html"  frameborder="0" name="iframe"  allowtransparency="true"></iframe>
+</div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif
+}
+.top-logo-div {
+    width: 200px;
+    height: 98px;
+    background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+.top-div {
+    width: 1130px;
+    margin: 0 auto;
+}
+.background-img{
+
+    width: 100%;
+    height: 556px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../images/小米9背景.jpg)
+}
+
+
+
+.denglu-div{
+    width: 410px;
+    height: 524px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    position: absolute;
+    right: 270px;
+    top: 32px;
+    overflow: hidden;
+
+}
+a,i{
+display: inline-block;
+}
+.qita-a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 17px;
+}
+
+
+.zhanghaodenglu{
+    width: 200px;
+    height:30px;
+    float: left;
+    border: none;
+    border-right: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    right:205px;
+    
+}
+.shaomadenglu{
+    width: 200px;
+    height: 30px;
+    float: right;
+    border: none;
+    border-left: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    left: 205px;
+}
+.zhanghao-input{
+    width: 338px;
+    height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 94px;
+    border: 1px solid  #a8a7a7;
+}
+.mima-input{
+    width: 338px;
+    height: 50px;
+    border: 1px solid  #a8a7a7;
+    position: absolute;
+    left: 30px;
+    top: 157px;
+}
+.lijidenglu{
+    width: 338px;
+    height: 50px;
+
+    position: absolute;
+    left: 30px;
+    top: 231px; 
+    background-color: #f56600;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.zhuce-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    right:109px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    color: #666666;
+    text-decoration: none;
+
+
+}
+.wangji-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    right: 38px;
+    padding-left: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+.shouji-a{
+    color: #f56600;
+    text-decoration: none;
+    float: left;
+    position: absolute;
+    top: 302px;
+    left: 30px;
+    font-size: 12.5px;
+}
+.other-div{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    right: 30px;
+    bottom: 0;
+    border-top: 1px solid  #757575;
+    
+}
+.other-div-box{
+    margin: 21px auto;
+    width: 271px;
+}
+
+.qq{
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/3.4.1.1登录.png);
+    background-position: -19px -1px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.qq-bc{
+    background-color: #0288d1;
+}
+.weibo{
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/3.4.1.1登录.png);
+    background-position: -38px -1px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+.weibo-bc{
+    background-color:#d32f2f;
+}
+.zhifubao{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/3.4.1.1登录.png);
+    background-position: -57px 1px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-repeat: no-repeat;
+    
+}
+.zhifubao-bc{
+    background-color: #0ae;
+}
+.weixin{
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/3.4.1.1登录.png);
+    background-position: -83px 3px;
+    position: absolute;
+    top:3px;
+    left:3px;
+    background-repeat: no-repeat;
+}
+.weixin-bc{
+    background-color:#00d20d;
+}
+.other-p::before{}
+.other-p{
+    float: left;
+    position: absolute;
+    font-size: 14px;
+    line-height: 18px;
+    top: -9px;
+    background-color: #fff;
+    right: 50%;
+    margin-right: -42px;
+    color: #757575
+}
+.foot{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    top:588px;
+    padding-top: 70px;
+    text-align: center;
+
+}
+.yuyan-ul{
+    text-align: center;
+}
+.yuyan-ul a{
+    padding: 0 10px;
+    list-style: none;
+    font-size: 14px;
+    text-decoration: none;
+    color: #757575;
+
+}
+.beian-ul{
+    padding: 10px;
+    color: #757575;
+    font-size: 14px;
+}
+#denglu-sm{
+    height: 442px;
+    width: 410px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    bottom: -82px;
+}
+
+#denglu-sm>img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -90px;
+    overflow: hidden;
+
+}
+.dianjiyanse{
+    color: #f56600;
+}
+.shiyong-div{
+    width: 305px;
+    height: 38px;
+    float: left;
+    position: relative;
+    left:52.5px;
+    top: 326px;
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+}
+button:focus{
+    outline: none;
+    }
+.shiyong-p>span{
+    color: #f56600;
+}

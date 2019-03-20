@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-logo-div{
+    background-color: #f56600;
+    width: 48px;
+    height: 48px;
+    float: left;
+    position: absolute;
+    left: 395px;
+    
+}
+.top-h1{
+    font-size: 32px;
+    line-height: 32px;
+    float: left;
+    position: absolute;
+    margin-top: 0px;
+    left: 465px;
+}
+.top-p1{
+    font-size: 10px;
+    line-height: 10px;
+    float: left;
+    position: absolute;
+    left: 465px;
+    top: 38px;
+}
+.top-div{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+.denglu-div{
+    width: 400px;
+    height: 524px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    position: absolute;
+    right: 395px;
+    top: 32px;
+    overflow: hidden;
+
+}
+a,i{
+display: inline-block;
+}
+.qita-a{
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+}
+.body-div{
+    background-image: url(../images/小米9背景.jpg);
+    height: 588px;
+    background-position-x: center;
+    position: relative;
+    overflow: hidden;
+}
+.zhanghaodenglu{
+    width: 200px;
+    height:30px;
+    float: left;
+    border: none;
+    border-right: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    right:200px;
+}
+.shaomadenglu{
+    width: 200px;
+    height: 30px;
+    float: right;
+    border: none;
+    border-left: 1px solid #e0e0e0;
+    background-color: #fff;
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    top: 29px;
+    left: 200px;
+}
+.zhanghao-input{
+    width: 338px;
+    height: 50px;
+
+    position: absolute;
+    left: 30px;
+    top: 94px;
+}
+.mima-input{
+    width: 338px;
+    height: 50px;
+
+    position: absolute;
+    left: 30px;
+    top: 157px;
+}
+.lijidenglu{
+    width: 338px;
+    height: 50px;
+
+    position: absolute;
+    left: 30px;
+    top: 231px; 
+    background-color: #f56600;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.zhuce-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    right:200px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    color: #666666;
+    text-decoration: none;
+
+
+}
+.wangji-a{
+    font-size: 12.5px;
+    position: absolute;
+    top: 302px;
+    left: 200px;
+    padding-left: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+.other-div{
+
+}
