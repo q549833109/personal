@@ -32,3 +32,10 @@ p.title {
 #f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8{
   font-size: 40px;
 }
+.myphoto>img{
+  width: 380px;
+  float: left;
+  position:absolute;
+  right:0px;
+  top: 100px;
+}
